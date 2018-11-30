@@ -1,5 +1,5 @@
 baseURL = "http://wanq.me/"
-languageCode = "en-us"
+languageCode = "en"
 title = "WanQ Notes"
 
 [Params]
