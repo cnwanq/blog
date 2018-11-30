@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://wanq.me/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "WanQ Notes"
+
+[Params]
+subtitle = "life·code·product"
+github = "https://github.com/cnwanq"
+profile = "/images/profile.png"
+copyright = "Written by wanq"
