@@ -3,7 +3,22 @@ languageCode = "en"
 title = "WanQ Notes"
 
 [Params]
-subtitle = "life·code·product"
+subtitle = "生活 · 编程 · 思想"
 github = "https://github.com/cnwanq"
-profile = "/images/profile.png"
-copyright = "Written by wanq"
+profile = "/images/swift.png"
+copyright = "Copyright © 2018 WanQ All rights reserved."
+banner = "/images/2012021709492293.jpg"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+# [Menu]
+#   [[Menu.main]]
+#     name = "文章"
+#     url = "/post/"
+#     weight = 1
+#   [[Menu.main]]
+#     name = "关于我"
+#     url = "/about/"
+#     weight = 2
+

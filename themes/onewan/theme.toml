@@ -5,14 +5,14 @@ name = "Onewan"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "http://wanq.me/"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "wanq"
+  homepage = "http://wanq.me/"
 
 # If porting an existing theme
 [original]
