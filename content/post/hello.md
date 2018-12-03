@@ -5,6 +5,8 @@ date: 2018-11-30T11:59:00+08:00
 author: "wanq"
 authorAvatar: "./images/swift.jpg"
 bannerRes: "hugo-banner.png"
+categories: [hugo]
+tags: [hugo]
 ---
 
 > 本博客是有`Hugo`搭建的，那么首先就来介绍下如何使用`Hugo`快捷的搭建博客网站

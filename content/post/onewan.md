@@ -5,6 +5,8 @@ description: "推荐一款自己开发的Hugo主题 - onewan"
 author: "wanq"
 authorAvatar: "./images/swift.jpg"
 bannerRes: "onewan-wanq.me"
+categories: [hugo]
+tags: [theme]
 ---
 
 # Hugo Theme - onewan
