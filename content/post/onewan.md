@@ -12,6 +12,7 @@ tags: [theme]
 # Hugo Theme - onewan
 通过`Hugo`搭建这个站点后，就想着捣鼓一些不一样的东西，那么首先就从网站的样式上入手，就自己开发了这个主题`onewan`。
 主题地址 [onewan theme](https://github.com/cnwanq/onewan)
+<!--more-->
 
 ## 主题的结构
 ```
