@@ -4,7 +4,7 @@ date: 2018-12-03T17:59:06+08:00
 description: "为大家分享真实的项目遇到的问题"
 author: "wanq"
 authorAvatar: "./images/swift.jpg"
-bannerRes: ""
+bannerRes: "time_black.jpg"
 categories: [开发]
 tags: [开发]
 draft: false
