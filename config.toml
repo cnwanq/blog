@@ -2,6 +2,7 @@ baseURL = "http://wanq.me/"
 languageCode = "en"
 title = "WanQ Notes"
 theme = "onewan"
+disqusShortname = "wanqme"
 
 [Params]
 subtitle = "生活 · 编程 · 思想"
