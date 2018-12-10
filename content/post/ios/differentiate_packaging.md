@@ -7,7 +7,7 @@ authorAvatar: "./images/swift.jpg"
 bannerRes: ""
 categories: [iOS]
 tags: [iOS, 打包]
-draft: true
+draft: false
 ---
 > 背景：  
 > APP里面之前添加了 Fabric Crashlytics 统计，现在想区分产线和开发环境的数据统计的数据。
