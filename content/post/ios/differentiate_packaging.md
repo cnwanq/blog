@@ -16,7 +16,7 @@ draft: false
 ## 如何部署 Fabric
 先看看如何在 APP 部署 Fabric
 [Get Start](https://fabric.io/kits/ios/crashlytics)
-
+<!--more-->
 ![add fabric png](fabric.io_kits_ios_crashlytics_install.png)
 
 * 需要修改 TARGETS => BUILD PHASES => RUN SCRIPT
