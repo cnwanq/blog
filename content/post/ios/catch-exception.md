@@ -16,7 +16,7 @@ Crash 分为两种, 一种是由`EXC_BAD_ACCESS`引起的，原因是访问了�
 
 # 系统Crash
 对于系统`Crash`而引起的程序异常退出，可以通过`UncaughtExceptionHandler`机制捕获；也就是说在程序中`catch`以外的内容，被系统自带的错误处理而捕获。我们要做的就是用自定义的函数替代该`ExceptionHandler`即可。
-
+<!--more-->
 # 处理Signal
 使用`Objective-C`的异常处理是不能得到`signal`的，如果要处理它，我们还要利用`unix`标准的`signal`机制，注册`SIGABRT`, `SIGBUS`, `SIGSEGV`等信号发生时的处理函数。该函数中我们可以输出栈信息，版本信息等其他一切我们所想要的。
 
