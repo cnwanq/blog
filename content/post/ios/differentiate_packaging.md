@@ -15,9 +15,10 @@ draft: false
 
 ## 如何部署 Fabric
 先看看如何在 APP 部署 Fabric
-[Get Start](https://fabric.io/kits/ios/crashlytics)
 <!--more-->
-![add fabric png](fabric.io_kits_ios_crashlytics_install.png)
+[Get Start](https://fabric.io/kits/ios/crashlytics)
+
+![add fabric png](/post/ios/fabric.io_kits_ios_crashlytics_install.png)
 
 * 需要修改 TARGETS => BUILD PHASES => RUN SCRIPT
 * 需要修改 Info.plist
@@ -29,9 +30,9 @@ draft: false
 
 在项目中新建一个 build_type.txt 文件，作为 flag 文件，文件内容默认为 `develop`。
 
-![项目文件](WX20181210-180945@2x.png)
+![项目文件](/post/ios/WX20181210-180945@2x.png)
 
-![项目文件scirpts](WX20181210-181553@2x.png)
+![项目文件scirpts](/post/ios/WX20181210-181553@2x.png)
 
 如果参数变为了 app-store 就会替换成其他的参数。
 
