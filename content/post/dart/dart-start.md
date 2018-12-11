@@ -15,7 +15,7 @@ draft: false
 
 [官方 Get Started](https://www.dartlang.org/)
 [在线 Dard 编译器](https://dartpad.dartlang.org/)
-
+<!--more-->
 
 ## Dart 安装
 

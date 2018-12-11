@@ -5,8 +5,8 @@ description: ""
 author: "wanq"
 authorAvatar: "./images/swift.jpg"
 bannerRes: ""
-categories: [默认]
-tags: [默认]
+categories: [dart]
+tags: [dart]
 draft: false
 ---
 [官方原文](https://www.dartlang.org/guides/language/language-tour)
@@ -27,6 +27,7 @@ main() {
   printInteger(number); // 调用函数
 }
 ```
+<!--more-->
 
 ## 重要的概念
 如果打算要学习Dart，请记住如下的一些建议：
