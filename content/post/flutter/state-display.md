@@ -1,6 +1,6 @@
 ---
-title: "flutter - 使用 Material 部件"
-date: 2018-12-19T17:36:25+08:00
+title: "flutter - 状态显示"
+date: 2018-12-19T18:37:18+08:00
 description: ""
 author: "wanq"
 authorAvatar: "./images/swift.jpg"
@@ -9,9 +9,7 @@ categories: [flutter]
 tags: [flutter]
 draft: false
 ---
-Flutter 提供的组件都遵循 Google 的 Material Design。一个 Material App 都是从 `MaterialApp` widget 开始，并且会包含一个导航 `Navigator`。
-
-看代码实例:
+前面，我们用到的都是无状态的部件，接下来我们要接触有状态的部件。
 <!--more-->
 ```dart
 import 'package:flutter/material.dart';
@@ -38,7 +36,7 @@ class TutorialHome extends StatelessWidget {
         ],
       ),
       body: Center(
-        child: Text('Hello, world!'),
+        child: Counter(),
       ),
       floatingActionButton: FloatingActionButton(
         tooltip: 'Add',
@@ -48,11 +46,38 @@ class TutorialHome extends StatelessWidget {
     );
   }
 }
+
+class Counter extends StatefulWidget {
+
+  @override
+  State createState() {
+    return _CounterState();
+  }
+}
+
+class _CounterState extends State<Counter> {
+  int _counter = 0;
+  
+  void _increment() {
+    setState(() {
+      _counter++;
+    });
+  }
+  
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: <Widget>[
+        RaisedButton(
+          onPressed: _increment,
+          child: Text('Increment'),
+        ),
+        Text('Count: $_counter'),
+      ],
+    );
+  }
+}
 ```
 
-
 运行结果
-![hello demo](/post/flutter/QQ20181219-174955@2x.png)
-
-
-[更多的 material components](https://flutter.io/docs/development/ui/widgets/material)
+![hello demo](/post/flutter/QQ20181219-184900@2x.png)
