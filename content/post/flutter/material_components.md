@@ -52,7 +52,7 @@ class TutorialHome extends StatelessWidget {
 
 
 运行结果
-![hello demo](/post/flutter/QQ20181219-160652@2x.png)
+![hello demo](/post/flutter/QQ20181219-174955@2x.png)
 
 
 [更多的 material components](https://flutter.io/docs/development/ui/widgets/material)
