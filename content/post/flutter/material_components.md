@@ -12,6 +12,7 @@ draft: false
 Flutter 提供的组件都遵循 Google 的 Material Design。一个 Material App 都是从 `MaterialApp` widget 开始，并且会包含一个导航 `Navigator`。
 
 看代码实例:
+<!--more-->
 ```dart
 import 'package:flutter/material.dart';
 

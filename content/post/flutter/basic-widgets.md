@@ -14,7 +14,7 @@ draft: false
 * Row, Column: 布局部件，横向布局与垂直布局。借鉴与 web 里面的 flex 布局
 * Stack: 布局部件，允许按照部件添加顺序堆叠咋一起。可以通过分别设置上左下右，来调整位置。
 * Container: 容器部件，创建矩形可视元素。可以使用BoxDecoration装饰容器，例如背景，边框或阴影。 Container也可以在其大小上应用边距，填充和约束。另外，可以使用矩阵在三维空
-
+<!--more-->
 下面是一些简单的小部件 demo，它们结合了这些小部件和其他小部件：
 ```dart
 import 'package:flutter/material.dart';
