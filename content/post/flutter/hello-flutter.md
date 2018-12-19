@@ -171,5 +171,9 @@ void main() {
   );
 }
 ```
+`runApp`里面放置`Widget`小部件，上面的例子中有两个`Widget`，分别是`Center`与`Text`。
+
 运行结果
 ![hello demo](/post/flutter/QQ20181219-160652@2x.png)
+
+在编写应用程序时，通常会创建作为`StatelessWidget`或`StatefulWidget`的子类的新窗口小部件，具体取决于窗口小部件是否管理任何状态。小部件的主要工作是实现构建函数，该函数根据其他较低级别的小部件描述小部件。框架依次构建这些小部件，直到该过程在代表底层`RenderObject`的小部件中达到最低点，该小部件计算并描述小部件的几何形状。
