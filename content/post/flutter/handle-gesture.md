@@ -1,5 +1,5 @@
 ---
-title: "手势处理"
+title: "flutter - 手势处理"
 date: 2018-12-19T18:06:29+08:00
 description: ""
 author: "wanq"
